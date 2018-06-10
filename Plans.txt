@@ -1,0 +1,50 @@
+Plans for the bot:
+
+Utility stuff:
+    + CAPSLOCK filter
+    + Emote spam filter
+        + make that toggleable
+            + subs can spam emotes
+            + followers with follow count > 14d can spam
+    + deputy mods
+        + not fully mods but can use some mod commands
+        + make a seperate class for them
+        + idea mods do stuff sometimes, so they can give someone temp mod rights
+    + voting system
+        + for multiple numeric options
+        
+
+
+Point system:
+    + getting Points for being connected with chat
+    + make cfg.CHAN able to add points to anyone in the Database
+    + minigames to spend points on
+    + spend points on sr/ soundboard
+        + youtube link integration
+        + (spotify link integration)
+        + (soundcloud link integration)
+    + get points thru subbing, donations bits
+
+Connection stuff:
+    + get subs alert
+    + get follow alert
+    + donation alert
+    + bit alert
+
+Point system with SQL-Database?
+    + all the shenanigans that come with that
+        + get a Database Programm (postgresql)
+        + create a schema and table with variable cfg.CHAN
+        + check if schema and table allready exists
+        + fill the table with viewer and update column points every 60sec or when a command takes place
+        + add a row everytime a new user enters the chat (check on enter if user allready exists in table)
+
+Make Discord/Twitch Link 
+    + for better handling off stream
+    + when twitch chat dies as backup
+    + maybe even standalone discord bot
+
+Make bot selfaware
+    + get Ai stuff
+    + ????
+    + Profit
