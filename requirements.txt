@@ -20,7 +20,7 @@ requests==2.18.4
 six==1.11.0
 SQLAlchemy==1.2.7
 twitchobserver==0.7.7
-urllib3==1.22
+urllib3==1.24.2
 win-inet-pton==1.0.1
 wincertstore==0.2
 wrapt==1.10.11
